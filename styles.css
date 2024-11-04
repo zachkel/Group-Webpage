@@ -1,0 +1,97 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #335740;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Header section styling */
+header {
+    background: #3e694e;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 5px double #2a2c24;
+}
+
+/* Styling for team logo image */
+.team-logo {
+    width: 200px; /* Adjust the size as needed */
+    margin-top: 10px;
+    border: 2px solid #2a2c24;
+}
+
+/* Menu button styling */
+header nav {
+    margin-top: 10px;
+}
+
+header nav button {
+    background: #2a2c24;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+header nav button:hover {
+    background: #575a4b;
+}
+
+/* Flex container for team bios and vision sections */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Card styling for individual team bios */
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1 calc(30% - 40px);
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    margin: 0 0 10px;
+}
+
+/* Initially hide bio details */
+.bio {
+    display: none;
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Button styling */
+button {
+    background: #2a2c24;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #575a4b;
+}
+
+#vision {
+    color: white;
+}
