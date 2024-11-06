@@ -95,3 +95,8 @@ button:hover {
 #vision {
     color: white;
 }
+
+.biopic {
+width: 150px;
+border: 2px solid #2a2c24;
+}
